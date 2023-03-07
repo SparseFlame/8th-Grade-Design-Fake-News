@@ -1,0 +1,73 @@
+html{
+    color: white;
+    background-color: black;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: navy;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section1{
+    height: fit-content;
+    width: 100%;
+    background-color:darkgray;
+}
+
+h3{
+    width: 100%;
+    height: 60px;
+    background-color:dimgray;
+    font-size: 30px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height:fit-content;
+}
+
+nav {
+    background-color: #333; /* sets the background color of the navbar */
+    height: 50px; /* sets the height of the navbar */
+  }
+  
+ul {
+    list-style-type: none; /* removes the bullet points from the list */
+    margin: 0; /* removes any margin around the list */
+    padding: 0; /* removes any padding around the list */
+}
+  
+li {
+    display: inline-block; /* displays the list items horizontally */
+    margin-right: 20px; /* adds a margin to the right of each list item */
+}
+  
+a {
+    color: white; /* sets the color of the link text */
+    text-decoration: none; /* removes the underline from the link */
+    padding: 15px; /* adds padding around the link text */
+}
+  
+a:hover {
+    background-color: #555; /* sets the background color of the link on hover */
+}
+
+footer {
+    background-color: #333; /* sets the background color of the footer */
+    color: white; /* sets the color of the text in the footer */
+    text-align: center; /* centers the text in the footer */
+    padding: 20px; /* adds padding around the footer */
+    position: fixed; /* fixes the footer to the bottom of the page */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* sets the width of the footer to 100% */
+  }
+  
+  footer p {
+    margin: 0; /* removes any margin around the paragraph */
+    font-size: 16px; /* sets the font size of the text in the footer */
+  }
+  
